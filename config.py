@@ -12,7 +12,7 @@ mediawiki_api_endpoint = 'https://geokb.wikibase.cloud/w/api.php'
 wikibase_sparql_endpoint = 'https://geokb.wikibase.cloud/query/sparql'
 
 # Name of the Wikibase instance
-wikibase_name = 'geokb.wikibase.cloud'
+wikibase_name = 'Geoscience Knowledgebase'
 
 # URL of the main page of the Wikibase instance
 wikibase_main_page = 'https://geokb.wikibase.cloud/wiki/Main_Page'
@@ -26,7 +26,7 @@ wikibase_namespace_id = 120
 wikibase_namespace_prefix = 'Item:'
 
 # User agent to connect to the Wikidata APIs
-user_agent = 'OpenRefine-Wikidata reconciliation interface'
+user_agent = 'OpenRefine reconciliation interface'
 
 # Regexes and group ids to extracts Qids and Pids from URLs
 import re
@@ -63,7 +63,7 @@ this_host = 'https://reconcile.datadistillery.org'
 # The default limit on the number of results returned by us
 default_num_results = 25
 
-# The maximum number of search results to retrieve from the Wikidata search API
+# The maximum number of search results to retrieve from the search API
 wd_api_max_search_results = 50 # need a bot account to get more
 
 # The matching score above which we should automatically match an item
@@ -77,7 +77,7 @@ redis_key_prefix = 'openrefine_wikidata:'
 
 # Headers for the HTTP requests made by the tool
 headers = {
-    'User-Agent':service_name + ' (OpenRefine-Wikibase reconciliation service)',
+    'User-Agent':service_name + ' (OpenRefine reconciliation service)',
 }
 
 # Previewing settings

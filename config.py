@@ -30,11 +30,9 @@ user_agent = 'OpenRefine-Wikidata reconciliation interface'
 
 # Regexes and group ids to extracts Qids and Pids from URLs
 import re
-q_re = re.compile(r'(<?https://geokb.wikibase.cloud/(entity|wiki)/)?(Q[0-9]+)>?'
-)
+q_re = re.compile(r'(<?https://geokb.wikibase.cloud/(entity|wiki)/)?(Q[0-9]+)>?')
 q_re_group_id = 3
-p_re = re.compile(r'(<?https://geokb.wikibase.cloud/(entity/|wiki/Property:))?(P
-[0-9]+)>?')
+p_re = re.compile(r'(<?https://geokb.wikibase.cloud/(entity/|wiki/Property:))?(P[0-9]+)>?')
 p_re_group_id = 3
 
 # Identifier space and schema space exposed to OpenRefine.
